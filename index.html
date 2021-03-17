@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Baloo Da 2' rel='stylesheet'>
+</head>
+<body>
+    <ul class="menubar">
+        <li class="menuItems"><a class="active" href="..\main.html">Home</a></li>
+        <li class="menuItems"><a href="..\3Student details\profiles.html">About Us</a></li>
+        <li class="menuItems"><a href="..\feedback.html">Feedback</a></li>
+        <li class="menuItems"><a href="..\1Buy Products\buy products2.html">Store</a></li>
+    </ul>
+        
+    <div id="content">
+        <div id="photo">
+            <img src="chryshel.jpg" class="image">
+        </div>
+        <div id="text1">
+            <h1>Hello!<br>I'm Chryshel</h1>
+            <p class="mybio">I'm an undergraduate student from Informatics Instition Of Technology which is affliated to the University of Westminster, UK. I went to St Sebastian's Colllege and completed my Adavanced Level in commerce Stream. Currently I am pursuing my Bachelor's Degree in Software Engineering at IIT.</p>
+        </div>
+        <div id="text2">
+            <div class="left bottomboxes">
+                <h2>My tasks in this project</h2>
+                 <ul>
+                    <li>Creating main page</li>
+                    <li>Creating feedback page</li>
+                </ul>
+            </div>
+            <div class="middle bottomboxes">
+                <h2>My details</h2>
+                <ul>
+                    <li>Full name: Chryshel Fonseka</li>
+                    <li>UOW number: W1761339</li>
+                    <li>IIT number: 2019405</li>
+                </ul>
+            </div>
+            <div class="right bottomboxes">
+                <h2>Contact me</h2>
+                <ul>
+                    <li>Email address: chryshel.2019405@iit.ac.lk</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="fontcontrols">
+
+			<button class="fontsize"onclick="increase()">&uarr;</button>
+			<div class="changefont">Change font size</div>
+			<button class="fontsize"onclick="decrease()">&darr;</button>
+        </div>
+        <button class="vieweditor">View page editor</button>
+    </footer>
+	
+	<script>
+function increase() {
+  var x = document.getElementsByTagName("BODY")[0];
+  x.style.fontSize = "large"
+}
+function decrease() {
+  var x = document.getElementsByTagName("BODY")[0];
+  x.style.fontSize = "medium"
+}
+</script>
+	
+</body>
+</html>

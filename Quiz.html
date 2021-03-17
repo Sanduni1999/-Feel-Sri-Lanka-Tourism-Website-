@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Quiz</title>
+		<link href="quiz.css" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Baloo Da 2' rel='stylesheet'>
+	</head>
+	<body>
+		<ul class="menubar">
+			<li class="menuItems"><a  href="..\main.html">Home</a></li>
+			<li class="menuItems"><a href="..\3Student details\profiles.html">About Us</a></li>
+			<li class="menuItems"><a href="..\feedback.html">Feedback</a></li>
+			<li class="menuItems"><a href="..\1Buy Products\buy products2.html">Store</a></li>
+		</ul>
+		<div id="welcomeContainer" class="startBox container transparent">
+			<h1 class="welcome-text">How well do you know about Sri Lanka?</h1>
+			<h3 class="welcome-text">Complete this simple quiz to check your knowledge about Sri Lanka</h3>
+			<button id="startBtn" class="start-btn" onclick="startQuiz()"><h1>Start</h1></button>
+		</div>
+
+		<div id="quizContainer" class="container transparent" style="display: none;">
+			<div id="question-box" class="question-box"><p id="question"></p></div>
+			<div id="timer-box"></div>
+			<input type="radio" name="option" value="1" class="radioBtn" id="radioBtn1"/><label class="option" for="radioBtn1"> <span id="opt1" class="option-text"></span></label>
+			<input type="radio" name="option" value="2" class="radioBtn" id="radioBtn2"/><label class="option" for="radioBtn2"> <span id="opt2" class="option-text"></span></label>
+			<input type="radio" name="option" value="3" class="radioBtn" id="radioBtn3"/><label class="option" for="radioBtn3"> <span id="opt3" class="option-text"></span></label>
+			<input type="radio" name="option" value="4" class="radioBtn" id="radioBtn4"/><label class="option" for="radioBtn4"> <span id="opt4" class="option-text"></span></label>
+			<button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next Question</button>
+		</div>
+
+		<div id="resultBox" class="container result transparent" style="display: none;">
+			<p id="quizTime" class="resultContent"></p>
+			<p id="resultMessage" class="resultContent" style="font-size: 30px;"></p>
+			<p id="score" class="resultContent" style="font-size: 20px;"></p>
+			<p id="correctAnswers" class="resultContent"></p>
+			<p id="incorrectAnswers" class="resultContent"></p>
+			<button id="restartBtn" onclick="location.reload()">Try Again</button>			
+		</div>
+
+		<script src="question.js"></script>
+		<script src="quiz-script.js"></script>
+		<footer>
+			<div id="fontcontrols">
+				<button class="fontsize"onclick="increase()">&uarr;</button>
+				<div class="changefont">Change font size</div>
+				<button class="fontsize"onclick="decrease()">&darr;</button>
+			</div>
+			<a href="..\3Student1 editor\index.html"><button class="vieweditor">View page editor</button></a>
+		</footer>
+	</body>
+</html>

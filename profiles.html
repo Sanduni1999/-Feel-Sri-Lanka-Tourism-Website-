@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Baloo Da 2' rel='stylesheet'>
+    <title>Overlay effect</title>
+</head>
+<body>
+    <ul class="menubar">
+        <li class="menuItems"><a href="..\main.html">Home</a></li>
+        <li class="menuItems"><a class="active" href="..\3Student details\profiles.html">About Us</a></li>
+        <li class="menuItems"><a href="..\feedback.html">Feedback</a></li>
+        <li class="menuItems"><a href="..\1Buy Products\buy products2.html">Store</a></li>
+    </ul>
+    <div id="content">
+        <h1>Group Members</h1>
+        <!-- chryshell -->
+        <div id="stud2" class="container" >
+            <img src="stud2.png" class="image" >
+            <div class="overlay overlaybottom" id="stud2Descript">
+                <div class="text"><h4>Saduni Bagya</h4><p>Student 1</p></div>
+            </div>
+        </div>
+        <!-- saduni -->
+        <div id="stud1" class="container">
+            <img src="stud1.jpg" class="image">
+            <div class="overlay overlaybottom" id="stud1Descript">
+                <div class="text"><h4>Chryshell Fonseka</h4>Student 2</div>
+            </div>
+        </div>
+        <!-- suhith -->
+        <div id="stud3" class="container" >
+            <img src="stud3.JPG" class="image" >
+            <div class="overlay overlaybottom" id="stud3Descript">
+                <div class="text"><h4>Suhith Nananyakakara</h4>Student 3</div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="fontcontrols">
+			<button class="fontsize"onclick="increase()">&uarr;</button>
+			<div class="changefont">Change font size</div>
+			<button class="fontsize"onclick="decrease()">&darr;</button>
+        </div>
+        <a href="..\3Student1 editor\index.html"><button class="vieweditor">View page editor</button></a>
+    </footer>
+	
+	<script>
+	function increase() {
+	  var x = document.getElementsByTagName("BODY")[0];
+	  x.style.fontSize = "large"
+	}
+	function decrease() {
+	  var x = document.getElementsByTagName("BODY")[0];
+	  x.style.fontSize = "medium"
+	}
+	</script>
+	
+	
+</body>
+</html>

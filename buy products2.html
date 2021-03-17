@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Buy Products</title>
+		<link href='https://fonts.googleapis.com/css?family=Baloo Da 2' rel='stylesheet'>
+		<style>
+body{font-family:  'Baloo Da 2';}
+			ul{
+			background-color: #333;
+			overflow:hidden;
+			list-style-type: none;
+			margin: 5px;
+			padding: 0;
+			}
+
+			li{
+			float: left;
+			}
+
+			li a {
+			display: block;
+			color:white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration:none;
+			}
+
+			.active{
+			background-color: #4CAF50;
+			}
+			
+			div.image {
+			margin: 11px;
+			border: 2px solid #5F927E;
+			float: left;
+			width: 478px;
+			}
+
+			div.image img {
+			  width: 100%;
+			  height: auto;
+			}
+
+			div.square {
+			  padding: 15px;
+			  text-align: center;
+			}
+
+			.container {
+			  padding: 15px;
+			  background-color: white;
+			}
+			input[type=text]{
+			  width: 100%;
+			  padding: 10px;
+			  margin: 5px 0 20px 0;
+			  display: inline-block;
+			  background: #D7E0DC;
+			}
+
+			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  background-image: url('ella.jpg');
+			}
+
+			h1{
+			font-family: Arial;
+			color: black;
+			text-align: center;
+			font-size: 40px;
+			margin: 40px 20px 80px 20px;
+			}
+			
+			footer{
+			width: 100%;
+			background-color: rgb(97, 97, 97);
+			margin-top: 150px;
+			height: 150px;
+			padding-top: 20px;
+			}
+
+			.fontsize{
+			height: 60px;
+			width: 100px;
+			background-color:#4CAF50;
+			color: rgb(255, 255, 255);
+			text-align: center;
+			font-size: 30px;
+			border: none;
+			float: left;
+			border: 2px solid rgb(97, 97, 97);
+			}
+
+			.changefont{
+			height: 45px;
+			width: 150px;
+			background-color:#4CAF50;
+			float: left;
+			border: 2px solid rgb(97, 97, 97);
+			text-align: center;
+			padding-top: 10px;
+			color: white;
+			}
+
+			.fontsize:hover{
+			background-color: rgb(107, 212, 107);
+			}
+
+			#fontcontrols{
+			margin: 30px;
+			}
+
+			.vieweditor{
+			height: 60px;
+			width: 200px;
+			background-color:#4CAF50;
+			color: rgb(255, 255, 255);
+			text-align: center;
+			font-size: 20px;
+			border: none;
+			float: right;
+			margin-right: 30px;
+			}
+
+			.vieweditor:hover{
+			background-color: rgb(107, 212, 107);
+			}
+
+
+			
+/* --------footer--------- */
+footer{
+    width: 100%;
+    background-color: #454545;
+    margin-top: 150px;
+    height: 150px;
+    padding-top: 20px;
+}
+.fontsize{
+    height: 60px;
+    width: 100px;
+    background-color:#45B39D;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    border: none;
+    float: left;
+    border: 2px solid #454545;
+}
+.changefont{
+    height: 45px;
+    width: 150px;
+    background-color:#45B39D;
+    float: left;
+    border: 2px solid #454545;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+.fontsize:hover{
+    background-color: #7DCEA0;
+}
+#fontcontrols{
+    margin: 30px;
+}
+
+.vieweditor{
+    height: 60px;
+    width: 200px;
+    background-color:#45B39D;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    float: right;
+    margin-right: 30px;
+}
+.vieweditor:hover{
+    background-color: rgb(107, 212, 107);
+}
+/* menu bar */
+.menubar{
+    background-color: #333;
+    overflow:hidden;
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    }
+    
+.menuItems{
+    float: left;
+    }
+    
+.menubar a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    }
+    
+.menubar a:hover:not(.active){
+    background-color: #111;
+    }
+    
+.active{
+    background-color: #4CAF50;
+}
+
+
+		</style>
+		
+	</head>
+	
+	<body>
+
+		<ul class="menubar">
+			<li class="menuItems"><a href="..\main.html">Home</a></li>
+			<li class="menuItems"><a href="..\3Student details\profiles.html">About Us</a></li>
+			<li class="menuItems"><a href="..\feedback.html">Feedback</a></li>
+			<li class="menuItems"><a class="active" href="..\1Buy Products\buy products2.html">Store</a></li>
+		</ul>
+
+		<h1 class = "h1">Buy Products </h1>
+		
+		<div class="image">
+			<img src="t1.jpg" alt="tshirt">
+			<div class="square"><b>Rs. 1200</b></div>
+		</div>
+
+		<div class="image">
+			<img src="s1.jpg" alt="Sticker">
+			<div class="square"><b>Rs. 300</b></div>
+		</div>
+
+		<div class="image">
+			<img src="k12.jpg" alt="keytag">
+			<div class="square"><b>Rs. 800</b></div>
+		</div>
+
+	<br><br>
+ 
+		<div class="container">
+		
+		<form>
+ 
+			<label for="name"><b>Full Name</b></label>
+			<input type="text" placeholder="name" name="name" required>
+			
+			<label for="email"><b>Email</b></label>
+			<input type="text" placeholder="Enter Email" name="email" required>
+
+			<label for="contact"><b>Contact Number</b></label>
+			<input type="text" placeholder="contact" name="contact" required>
+			
+			<label for="NIC"><b>NIC</b></label>
+			<input type="text" placeholder="NIC" name="NIC" required>
+			
+			<label for="Address"><b>Home Address</b></label>
+			<input type="text" placeholder="Address" name="Address" required>
+
+		</form>
+		
+		</div>
+
+		<div class="container">
+		
+			<h2>Order Products</h2>
+			
+				<form name="order" method="post" >
+				
+					<input type="hidden" name="mode" value="hidden" />
+					<label><b>T-Shirt		Rs.1200</b></label><br><br>
+					<label class="quantity"><b>Quantity</b></label>
+					<select name="quantity" onchange="tshirtAmount(this.value)" required>
+						<option value="" disabled selected>Choose the quantity</option>
+						<option value="0">0</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+					</select>
+					
+		<br><br>
+		
+					<label><b>Amount for the T-Shirts</b></label>
+					<input class="tot tshirt" name="tot_tshirt" id="tot_tshirt" type="text" >
+		
+		<br><br>
+		
+					<label><b>Sticker		Rs.300</b></label><br><br>
+					<label class="quantity"><b>Quantity</b></label>
+					<select name="quantity" onchange="stickerAmount(this.value)" required>
+						<option value="" disabled selected>Choose the quantity</option>
+						<option value="0">0</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+					</select>
+		<br><br>
+					<label><b>Amount for the Stickers</b></label>
+					<input class="w3-input w3-border" name="tot_sticker" id="tot_sticker" type="text" >
+		
+		<br><br>
+		
+					<label><b>Key Tag		Rs.800</b></label><br><br>
+					<label class="quantity"><b>Quantity</b></label>
+					<select name="quantity" onchange="keytagAmount(this.value)" required>
+						<option value="" disabled selected>Choose the quantity</option>
+						<option value="0">0</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+					</select>
+					<br><br>
+					<label><b>Amount for the Key Tags</b></label>
+					<input class="tot key" name="tot_key" id="tot_key" type="text" >
+		
+		<br><br>
+		
+		<button onclick="tot()">Submit to get Total Price</button>
+		<p id="total"></p>
+		</div>
+		
+		<footer>
+			<div id="fontcontrols">
+				<button class="fontsize"onclick="increase()">&uarr;</button>
+				<div class="changefont">Change font size</div>
+				<button class="fontsize"onclick="decrease()">&darr;</button>
+			</div>
+			<a href="..\1my page editor\sanduni page editor.html"><button class="vieweditor">View page editor</button></a>
+			<a href="..\1my page editor\sanduni page editor.html" style="color: white;float: right;">If view editor button doesn't work</a>
+		</footer>
+	
+
+	<script>
+	
+	function increase() {
+	var x = document.getElementsByTagName("BODY")[0];
+	x.style.fontSize = "large"
+	}
+	function decrease() {
+	var x = document.getElementsByTagName("BODY")[0];
+	x.style.fontSize = "medium"
+	}
+	
+		var tot_tshirt;
+		var tot_sticker;
+		var tot_key;
+
+			function tshirtAmount(val) {
+							tot_tshirt = val * 1200;
+							var tshirtAmount = document.getElementById('tot_tshirt');
+							tshirtAmount.value = tot_tshirt;
+							
+						}
+			function stickerAmount(val) {
+							tot_sticker = val * 300;
+							var stickerAmount = document.getElementById('tot_sticker');
+							stickerAmount.value = tot_sticker;
+						}
+			function keytagAmount(val) {
+							tot_key = val * 800;
+							var keyAmount = document.getElementById('tot_key');
+							keyAmount.value = tot_key;
+						}
+						
+		var tot=tot_key+tot_sticker+tot_tshirt;
+
+			function tot(){
+				var popupAlert;
+			  if (confirm("Your total price is"+tot)) {
+				popupAlert = "Your total price is"+tot;
+			  } else {
+				popupAlert = "You pressed Cancel!";
+			  }
+			  document.getElementById("total").innerHTML = popupAlert;
+			}
+
+
+	</script>
+	
+	    
+
+	</body>
+	
+</html>

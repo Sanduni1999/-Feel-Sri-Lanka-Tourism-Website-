@@ -1,0 +1,165 @@
+body{
+    background-color: rgb(147, 207, 162);
+    font-family:  'Baloo Da 2';
+
+}
+#content{
+    height: 420px;
+    width: 900px;
+    margin: 200px;
+    margin-top: 50px;
+    margin-bottom: 300px;
+
+}
+.image{
+    height: 100%;
+    width: 100%
+}
+#photo{
+    position: relative;
+    height: 420px;
+    width: 320px;
+    margin-bottom: 10px;
+    float: left;
+    background-color: teal;
+}
+#text1{
+    position: relative;
+    background-color: white;
+    height: 420px;
+    width: 550px;
+    float: left;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    padding-left: 0px;
+}
+
+
+
+.mybio{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+h1{
+    font-size: 45px;
+    margin-left: 30px ;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    line-height: 60px;
+}
+#text2{
+    width: 870px;
+    height: 150px;
+    padding-right: 0px;
+    display: inline-block;
+    margin-top: 10px;
+    
+}
+
+
+.left{
+    width: 280px;
+    margin-right: 20px;
+    float: left;
+}
+.middle{
+    width: 275px;
+    float: left;
+
+}
+.right{
+    width: 270px;
+    margin-left: 20px;
+    float: left;
+}
+.bottomboxes{
+    height: 180px;
+    background-color: white;
+    padding: 0px;
+}
+
+h2{
+    margin-left: 10px;
+}
+
+/* menu bar */
+.menubar{
+    background-color: #333;
+    overflow:hidden;
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    }
+    
+.menuItems{
+    float: left;
+    }
+    
+.menubar a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    }
+    
+.menubar a:hover:not(.active){
+    background-color: #111;
+    }
+    
+.active{
+    background-color: #4CAF50;
+}
+
+/* --------footer--------- */
+footer{
+    width: 100%;
+    background-color: rgb(97, 97, 97);
+    margin-top: 150px;
+    height: 150px;
+    padding-top: 20px;
+}
+.fontsize{
+    height: 60px;
+    width: 100px;
+    background-color:#4CAF50;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    border: none;
+    float: left;
+    border: 2px solid rgb(97, 97, 97);
+}
+.changefont{
+    height: 45px;
+    width: 150px;
+    background-color:#4CAF50;
+    float: left;
+    border: 2px solid rgb(97, 97, 97);
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+.fontsize:hover{
+    background-color: rgb(107, 212, 107);
+}
+#fontcontrols{
+    margin: 30px;
+}
+
+.vieweditor{
+    height: 60px;
+    width: 200px;
+    background-color:#4CAF50;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    float: right;
+    margin-right: 30px;
+}
+.vieweditor:hover{
+    background-color: rgb(107, 212, 107);
+}

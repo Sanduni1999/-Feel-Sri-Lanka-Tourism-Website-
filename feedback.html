@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>feedback</title>
+</head>
+<body class="feedbackb" style="font-family:'Baloo Da 2';">
+
+	<ul>
+		<li><a  href="main.html">Home</a></li>
+		<li><a href="3Student details\profiles.html">About Us</a></li>
+		<li><a class="active" href="Feedback.html">Feedback</a></li>
+		<li><a href="1Buy Products\buy products2.html">Store</a></li>
+
+		
+	</ul>
+<div class="feedbackb">
+
+	<div class="formbox">
+		<div class="formhead">Feedback</div>
+	
+	<form id="myForm">
+
+		Name: <input type="text" name="name" placeholder="Enter your name">
+		<br>
+
+		Email: <input type="Email" name="email" placeholder="example@gmail.com">
+		<br>
+		Text : <input type="text" name="comment" placeholder="your Comment">
+		<br>
+		
+		<p>website usability experince</p>
+
+		<div class="rating">
+			<input type="radio" name="rating" id="poor">
+			<label >Poor</label>
+			
+			<input type="radio" name="rating" id="ok">
+			
+			<label >Ok</label>
+			
+
+			<input type="radio" name="rating" id="good">
+			<label >Good</label>
+			
+			<input type="radio" name="rating" id="excellent">
+			<label>Excellent </label>
+			
+		</div>
+		<br>
+
+
+		<input type="submit" name="submit" value="submit" onclick="formsubmit()">
+		<br>
+		<input type="button" onclick="formReset()" value="Reset form">
+		
+		
+
+	
+ 	</form>
+ 	</div>
+ </div>		
+ <footer>
+	<div id="fontcontrols">
+		<button class="fontsize"onclick="increase()">&uarr;</button>
+		<div class="changefont">Change font size</div>
+		<button class="fontsize"onclick="decrease()">&darr;</button>
+	</div>
+	<a href="editors page student2\index.html"><button class="vieweditor">View page editor</button></a>
+</footer>
+
+<script src="main.js"></script> 
+</body>
+</html>
